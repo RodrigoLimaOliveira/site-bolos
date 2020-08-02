@@ -1,0 +1,90 @@
+html body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+	margin: 0;
+}
+header {
+	background-color: #ffbbdd;
+}
+nav {
+	background-color: #f0b0d0;
+	padding: 1px;
+}
+li{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: inline-block;
+	font-weight: bold;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+	text-align: left;
+	padding-left: 10px;
+}
+ul {
+    display: block;
+    padding-left: 10px;
+}
+.logoImg{
+	display: inline-block;
+	padding: 5px
+}
+.titulo{
+	display: inline-block;
+	vertical-align: top;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+}
+.produto{
+	display: inline-block;
+	margin: 10px;
+	border-style: solid;
+	border-width: thin;
+	border-color: #e5e5e5; 
+}
+.produtoImagem{
+	padding: 2px;
+	padding-bottom: 50px;
+}
+.detalhes{
+	background-color: #f0f0f0;
+	border-style: solid;
+	border-width: thin;
+	border-color: #e5e5e5;
+	text-align: center;
+	padding-bottom: 16px;
+}
+.preco{
+	font-weight: bold;
+}
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+    background-color: #ffbbdd;
+	font-size: 10px;
+	text-align: center;
+}
+p{
+	margin: 5px;
+}
+#mostraerro{
+	margin-left: 20%;
+	font-size: 10px;
+	color: red
+}
+#Ienviar{
+	width: 318px;
+	height: 32px;
+	background-color: #ffbbdd;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+form{
+	margin-left: 30%;
+}
